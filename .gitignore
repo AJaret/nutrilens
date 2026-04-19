@@ -198,6 +198,22 @@ cython_debug/
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+android/.gradle/
 .cursorignore
 .cursorindexingignore
 
